@@ -1,0 +1,98 @@
+/*%TAG*/
+:root{
+    --choose-color:#f97f51;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+}
+
+section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    overflow: hidden;
+}
+
+ul{
+    position: relative;
+    display: flex;
+    line-height: 6em;
+    list-style-type: none;
+    flex-direction: column;
+    text-align: center;
+    transition:0.5s;
+    -webkit-transition:0.5s;
+    -moz-transition:0.5s;
+    -ms-transition:0.5s;
+    -o-transition:0.5s;
+}
+
+li{
+    border-style: solid;
+    border-radius:8px;
+    -webkit-border-radius:8px;
+    -moz-border-radius:8px;
+    -ms-border-radius:8px;
+    -o-border-radius:8px;
+    border-color:black;
+    transition:0.5s;
+    -webkit-transition:0.5s;
+    -moz-transition:0.5s;
+    -ms-transition:0.5s;
+    -o-transition:0.5s;
+}
+
+ul li a{
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    text-shadow: rgb(94, 85, 85);
+    font-weight: bold;
+    font-size: 3em;
+    display: block;
+    color:white;
+    transition:0.5s;
+    -webkit-transition:0.5s;
+    -moz-transition:0.5s;
+    -ms-transition:0.5s;
+    -o-transition:0.5s;
+}
+
+li:hover{/*%NOTE*/
+    border: solid;
+    border-radius:8px;
+    -webkit-border-radius:8px;
+    -moz-border-radius:8px;
+    -ms-border-radius:8px;
+    -o-border-radius:8px;
+    border-color: var(--choose-color);
+}
+
+ul li a:hover{
+    background-color:var(--choose-color);
+    text-shadow:0 0 10px var(--hover-font-color),
+    0 0 30px var(--hover-font-color),
+    0 0 80px var(--hover-font-color);
+    font-size: 4em;
+    color: black;
+    transition: delay 0.1s;
+    -webkit-transition: delay 0.1s;
+    -moz-transition: delay 0.1s;
+    -ms-transition: delay 0.1s;
+    -o-transition: delay 0.1s;
+    transition:0.5s;
+    -webkit-transition:0.5s;
+    -moz-transition:0.5s;
+    -ms-transition:0.5s;
+    -o-transition:0.5s;
+}
